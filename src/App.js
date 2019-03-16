@@ -27,6 +27,7 @@ const IndexPage = () => (
         </div>
         <div className="body">
           <Route exact path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
           <Route path="/about" component={About} />
         </div>
       </div>
@@ -36,7 +37,7 @@ const IndexPage = () => (
 const Contact = () => (
   <div>
     <div className=".row">
-      <a href="email: deborahseow9@gmail.com">Email Me</a>
+      <p>Coming Soon!</p>
     </div>
   </div>
 );
