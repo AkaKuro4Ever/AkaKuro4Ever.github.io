@@ -44,7 +44,7 @@ const Contact = () => (
 const Home= () => (
   <div className="home">
     <div className="deborah">
-      <img id="deborah" src="../d.jpg" alt="Pic of Deborah" width="180px"/>
+      <img id="deborah" src="../deborah.jpg" alt="Pic of Deborah" width="180px"/>
     </div>
     <div className="text-center">
     <h2>Hello, I'm</h2><h1>Deborah Seow</h1>
