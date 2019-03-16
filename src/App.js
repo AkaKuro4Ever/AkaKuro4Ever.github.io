@@ -29,6 +29,7 @@ const IndexPage = () => (
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={Contact} />
           <Route path="/about" component={About} />
+          <Route path="/blog" component={Blog} />
         </div>
       </div>
     </Router>
