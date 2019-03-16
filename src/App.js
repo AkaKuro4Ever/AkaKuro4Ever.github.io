@@ -7,7 +7,7 @@ const IndexPage = () => (
     <Router >
       <div className="container">
         <div className="flex-column">
-          <ul className="nav navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+          <ul className="nav navbar navbar-expand-lg fixed-top">
           <li className="navbar-brand h1 justify-content-between">Deborah Seow</li>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <li className="nav-item">
@@ -28,8 +28,6 @@ const IndexPage = () => (
         <div className="body">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/blog" component={Blog} />
         </div>
       </div>
     </Router>
